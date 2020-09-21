@@ -25,3 +25,32 @@ html,body {
 .intro{
     background-color:white;
 }
+.transition{
+    background:url(horns.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 1600px 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-color: rgba(0,0,0, 0.4); 
+    height:100%;
+    width:100%;
+    opacity:.8;
+}
+
+.collapsebtn {
+    border-color:black;
+    color: white ;
+    border-radius: 0 !important;
+    border-style: solid;
+    transition: .7s;
+    background:black;
+    width: 50%;
+    height:40px;
+  }
+  .collapsebtn:hover{
+    color:black;
+    background-color:white;
+    border-color:white;
+  }
