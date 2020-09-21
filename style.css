@@ -1,0 +1,27 @@
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.home{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(music-note1.jpg);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 1600px 1000px;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+     background-color: rgba(0,0,0, 0.4); 
+     height:100%;
+     width:100%;
+     
+}
+.navbar{
+    opacity: .9;
+}
+.intro{
+    background-color:white;
+}
