@@ -54,3 +54,16 @@ html,body {
     background-color:white;
     border-color:white;
   }
+  .schedhome{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(debby-hudson-TqKFiMR9O6s-unsplash.jpg);
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 1600px 1000px;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+     background-color: rgba(0,0,0, 0.4); 
+     height:100%;
+     width:100%;
+  }
