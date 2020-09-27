@@ -19,12 +19,7 @@ html,body {
      width:100;
      
 }
-.navbar{
-    opacity: .9;
-}
-.intro{
-    background-color:white;
-}
+
 .transition{
     background:url(horns.jpg);
     -webkit-background-size: cover;
@@ -81,3 +76,41 @@ html,body {
      height:100%;
      width:100%;
   }
+
+  .navbar{
+    background-color:transparent;
+    transition: .4s;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .nav-link{
+    color:white;
+  }
+
+
+  /* Change navbar styling on scroll */
+.navbar.active {
+  background: white;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.986);
+}
+
+.navbar.active .nav-link {
+  color: black;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color:gray;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+.navbar.active-black{
+  background:black;
+  box-shadow: 1px 2px 10px rgb(223, 219, 219);
+}
+.navbar.active-black .nav-link{
+color:white;
+}
